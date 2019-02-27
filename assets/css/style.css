@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/Dark-Background-Design-Free-Download.png");
 }
 
 * {
@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color:rgb(32, 82, 218)5;
 }
 
 h1 {
@@ -43,11 +43,13 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  color: white
 }
 
 h2,
 h3 {
   font-size: 22px;
+  color: white
 }
 
 /* header */
@@ -74,7 +76,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: black;
 }
 
 nav {
@@ -103,8 +105,8 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: goldenrod;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
 }
 
@@ -122,15 +124,7 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
-}
+
 
 /* portfolio page */
 
@@ -160,9 +154,9 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: black;
   text-align: center;
-  background: #4aaaa5;
+  background: white;
   border-bottom: 0;
 }
 
@@ -190,6 +184,7 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
+  color: white
 }
 
 input[type=text],
@@ -199,6 +194,7 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
+  color: white
 }
 
 textarea {
@@ -208,8 +204,8 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #ffffff;
+  color: black;
   cursor: pointer;
-  background: #4aaaa5;
+  background: white;
   border: 0 none;
 }

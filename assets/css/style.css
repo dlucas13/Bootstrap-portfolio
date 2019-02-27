@@ -3,7 +3,16 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/Dark-Background-Design-Free-Download.png");
+  background: url("../images/Magic.jpeg");
+}
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
 }
 
 * {
@@ -43,13 +52,13 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
-  color: white
+  color: rgb(32, 82, 218)
 }
 
 h2,
 h3 {
   font-size: 22px;
-  color: white
+  color: rgb(32, 82, 218)
 }
 
 /* header */
@@ -76,7 +85,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: black;
+  background: rgb(32, 82, 218);
 }
 
 nav {
@@ -89,7 +98,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: blue;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -105,8 +114,8 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: blue;
+  color: white;
   text-align: center;
 }
 
@@ -154,7 +163,7 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: black;
+  color: rgb(32, 82, 218);
   text-align: center;
   background: white;
   border-bottom: 0;
@@ -184,7 +193,7 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
-  color: white
+  color: rgb(32, 82, 218)
 }
 
 input[type=text],
@@ -194,7 +203,7 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #dddddd;
-  color: white
+  color: rgb(32, 82, 218)
 }
 
 textarea {
@@ -204,8 +213,8 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: black;
+  color: white;
   cursor: pointer;
-  background: white;
+  background: rgb(32, 82, 218);
   border: 0 none;
 }
